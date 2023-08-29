@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "texture": "o",
+    "customModelName": "battleshield:default",
+    "name": "Battleshield",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BattleshieldRightClickedOnBlock"
+    },
+    "onRightClickedOnBlock": {
+      "name": "BattleshieldRightClickedOnBlock"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft_rpgweapons:custom/battleshield",
+  "textures": {
+    "0": "minecraft_rpgweapons:block/battleshield",
+    "missing": "minecraft_rpgweapons:block/battleshield",
+    "particle": "minecraft_rpgweapons:item/o"
+  }
+}

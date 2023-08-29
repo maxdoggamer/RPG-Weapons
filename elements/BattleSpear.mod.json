@@ -1,0 +1,40 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "battlespear",
+    "customModelName": "Normal",
+    "name": "Battle Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1500,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "onRangedItemUsed": {
+      "name": "DaggerRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "ModelSpear",
+    "customBulletModelTexture": "spear.png"
+  }
+}

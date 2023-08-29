@@ -1,0 +1,321 @@
+{
+  "mod_elements": [
+    {
+      "name": "Katana",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/KatanaItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/katana.json"
+        ]
+      }
+    },
+    {
+      "name": "DaggerRangedItemUsed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/procedures/DaggerRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/dagger.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/DaggerItem.java",
+          "src/main/java/net/mcreator/minecraftrpgweapons/entity/DaggerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Broadsword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broadsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/broadsword.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BroadswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BattleAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleAxeItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/battle_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "BattleSpear",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/battle_spear.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleSpearItem.java",
+          "src/main/java/net/mcreator/minecraftrpgweapons/entity/BattleSpearEntity.java",
+          "src/main/java/net/mcreator/minecraftrpgweapons/client/renderer/BattleSpearRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "KatanaOfc",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_ofc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/KatanaOfcItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/katana_ofc.json"
+        ]
+      }
+    },
+    {
+      "name": "DaggerOfc",
+      "type": "rangeditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_ofc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/DaggerOfcItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/dagger_ofc.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/entity/DaggerOfcEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BattleshieldRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battleshield_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/procedures/BattleshieldRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Battleshield",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battleshield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/battleshield.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleshieldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BroadswordOfc",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broadsword_ofc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BroadswordOfcItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/broadsword_ofc.json"
+        ]
+      }
+    },
+    {
+      "name": "BattleAxeOfc",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_axe_ofc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleAxeOfcItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/battle_axe_ofc.json"
+        ]
+      }
+    },
+    {
+      "name": "Baning",
+      "type": "enchantment",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/enchantment/BaningEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "VoidBan",
+      "type": "biome",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ban",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft_rpgweapons/worldgen/biome/void_ban.json"
+        ]
+      }
+    },
+    {
+      "name": "BanimentVoid",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baniment_void",
+      "metadata": {
+        "ep": false,
+        "files": [
+          "src/main/resources/data/minecraft_rpgweapons/dimension/baniment_void.json",
+          "src/main/resources/data/minecraft_rpgweapons/dimension_type/baniment_void.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/world/dimension/BanimentVoidDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "Baniment",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baniment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/procedures/BanimentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scimitar",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scimitar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/ScimitarItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/scimitar.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft_rpgweapons.scimitar": "Scimitar",
+      "item.minecraft_rpgweapons.dagger_ofc": "Dagger",
+      "enchantment.minecraft_rpgweapons.baning": "Baning",
+      "item.minecraft_rpgweapons.dagger": "Dagger",
+      "item.minecraft_rpgweapons.katana": "Katana",
+      "item.minecraft_rpgweapons.broadsword": "Broadsword",
+      "biome.minecraft_rpgweapons.void_ban": "Void Ban",
+      "item.minecraft_rpgweapons.broadsword_ofc": "Broadsword",
+      "item.minecraft_rpgweapons.battle_axe": "Battle Axe",
+      "item.minecraft_rpgweapons.battleshield": "Battleshield",
+      "item.minecraft_rpgweapons.battle_spear": "Battle Spear",
+      "item.minecraft_rpgweapons.battle_axe_ofc": "Battle Axe",
+      "item.minecraft_rpgweapons.katana_ofc": "Katana"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecraft_rpgweapons",
+    "modName": "minecraft RPGWeapons",
+    "version": "1.1.2",
+    "author": "MaxDogGamer",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.minecraftrpgweapons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300334614
+}
