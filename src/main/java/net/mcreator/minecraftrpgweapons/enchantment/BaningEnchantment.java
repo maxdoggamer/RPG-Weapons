@@ -1,8 +1,14 @@
 
 package net.mcreator.minecraftrpgweapons.enchantment;
 
-public class BaningEnchantment extends Enchantment {
+import net.minecraft.world.item.enchantment.Enchantments;
+import net.minecraft.world.item.enchantment.EnchantmentCategory;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.entity.EquipmentSlot;
 
+import java.util.List;
+
+public class BaningEnchantment extends Enchantment {
 	public BaningEnchantment(EquipmentSlot... slots) {
 		super(Enchantment.Rarity.VERY_RARE, EnchantmentCategory.WEAPON, slots);
 	}

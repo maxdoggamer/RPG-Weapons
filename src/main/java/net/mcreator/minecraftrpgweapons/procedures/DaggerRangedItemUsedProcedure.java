@@ -1,8 +1,8 @@
 package net.mcreator.minecraftrpgweapons.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 
 public class DaggerRangedItemUsedProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {

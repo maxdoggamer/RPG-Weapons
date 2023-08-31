@@ -46,9 +46,9 @@
       "registry_name": "dagger",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/entity/DaggerEntity.java",
           "src/main/resources/assets/minecraft_rpgweapons/models/item/dagger.json",
-          "src/main/java/net/mcreator/minecraftrpgweapons/item/DaggerItem.java",
-          "src/main/java/net/mcreator/minecraftrpgweapons/entity/DaggerEntity.java"
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/DaggerItem.java"
         ]
       }
     },
@@ -89,10 +89,10 @@
       "registry_name": "battle_spear",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minecraft_rpgweapons/models/item/battle_spear.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/client/renderer/BattleSpearRenderer.java",
           "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleSpearItem.java",
-          "src/main/java/net/mcreator/minecraftrpgweapons/entity/BattleSpearEntity.java",
-          "src/main/java/net/mcreator/minecraftrpgweapons/client/renderer/BattleSpearRenderer.java"
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/battle_spear.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/entity/BattleSpearEntity.java"
         ]
       }
     },
@@ -119,9 +119,9 @@
       "registry_name": "dagger_ofc",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minecraftrpgweapons/entity/DaggerOfcEntity.java",
           "src/main/java/net/mcreator/minecraftrpgweapons/item/DaggerOfcItem.java",
-          "src/main/resources/assets/minecraft_rpgweapons/models/item/dagger_ofc.json",
-          "src/main/java/net/mcreator/minecraftrpgweapons/entity/DaggerOfcEntity.java"
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/dagger_ofc.json"
         ]
       }
     },
@@ -157,8 +157,8 @@
       "registry_name": "battleshield",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minecraft_rpgweapons/models/item/battleshield.json",
-          "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleshieldItem.java"
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BattleshieldItem.java",
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/battleshield.json"
         ]
       }
     },
@@ -171,8 +171,8 @@
       "registry_name": "broadsword_ofc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minecraftrpgweapons/item/BroadswordOfcItem.java",
-          "src/main/resources/assets/minecraft_rpgweapons/models/item/broadsword_ofc.json"
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/broadsword_ofc.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/BroadswordOfcItem.java"
         ]
       }
     },
@@ -268,8 +268,8 @@
       "registry_name": "scimitar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minecraftrpgweapons/item/ScimitarItem.java",
-          "src/main/resources/assets/minecraft_rpgweapons/models/item/scimitar.json"
+          "src/main/resources/assets/minecraft_rpgweapons/models/item/scimitar.json",
+          "src/main/java/net/mcreator/minecraftrpgweapons/item/ScimitarItem.java"
         ]
       }
     }
@@ -317,5 +317,5 @@
     "modElementsPackage": "net.mcreator.minecraftrpgweapons",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300334614
+  "mcreatorVersion": 202300335319
 }
